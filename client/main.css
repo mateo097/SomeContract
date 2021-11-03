@@ -1,0 +1,31 @@
+:root {
+    --white:#fdfafb;
+    --green:#00c74c;
+    --yellow:#c5a108;
+    --pink:#c1002b;
+    --dark:#16222d;
+    --black:#0e1214;
+}
+body {
+    background-color: var(--black);
+    color: var(--white)
+}
+
+.bg-darkie{
+    background-color: var(--dark)
+}
+.bg-darkie:focus{
+    background-color: var(--dark)
+}
+.bg-green{
+    background-color: var(--green);
+}
+.color-yellow{
+    color: var(--yellow)
+}
+.color-light{
+    color: var(--white)
+}
+.color-light:focus{
+    color: var(--white)
+}
